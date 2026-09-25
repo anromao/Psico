@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO -->
+  <title>Dra. Ana Beatriz Ferreira — Psicóloga | Terapia Individual, Casal e Online</title>
+  <meta name="description" content="Dra. Ana Beatriz Ferreira, psicóloga clínica com 10 anos de experiência. Atendimento presencial e online em terapia individual, de casal, ansiedade, depressão e desenvolvimento pessoal. CRP 06/12345." />
+  <meta name="keywords" content="psicóloga, terapia, ansiedade, depressão, atendimento online, TCC, terapia cognitivo-comportamental, psicoterapia" />
+  <meta name="author" content="Dra. Ana Beatriz Ferreira" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Dra. Ana Beatriz Ferreira — Psicóloga Clínica" />
+  <meta property="og:description" content="Cuidado com a sua saúde mental de forma acolhedora e profissional. Atendimento presencial e online." />
+  <meta property="og:image" content="psicologa.jpg" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ================================================
+       HEADER — NAVEGAÇÃO FIXA
+       ================================================ -->
+  <header class="header" id="header" role="banner">
+    <div class="container">
+      <nav class="nav" aria-label="Navegação principal">
+        <a href="#hero" class="nav-logo" aria-label="Voltar ao início">
+          <span class="nav-logo-nome">Dra. Ana Beatriz</span>
+          <span class="nav-logo-crp">Psicóloga · CRP 06/12345</span>
+        </a>
+        <ul class="nav-links" role="list">
+          <li><a href="#sobre" id="nav-sobre">Sobre</a></li>
+          <li><a href="#tratamentos" id="nav-tratamentos">Tratamentos</a></li>
+          <li><a href="#depoimentos" id="nav-depoimentos">Depoimentos</a></li>
+          <li>
+            <a href="#contato" id="nav-contato" class="nav-cta">Agendar Consulta</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+  <main>
+
+    <!-- ================================================
+         HERO — SEÇÃO PRINCIPAL
+         ================================================ -->
+    <section class="hero" id="hero" aria-labelledby="hero-titulo">
+      <div class="container">
+        <div class="hero-inner">
+
+          <!-- Conteúdo textual -->
+          <div class="hero-conteudo">
+            <div class="hero-eyebrow">
+              <span class="hero-eyebrow-linha" aria-hidden="true"></span>
+              <span class="hero-eyebrow-texto">Psicologia Clínica</span>
+            </div>
+
+            <h1 class="hero-titulo" id="hero-titulo">
+              Cuide da sua mente,<br />
+              <em>reconecte-se</em><br />
+              com você mesmo
+            </h1>
+
+            <p class="hero-descricao">
+              Um espaço seguro, acolhedor e sem julgamentos para você se
+              conhecer melhor, superar desafios e construir uma vida com
+              mais equilíbrio e significado.
+            </p>
+
+            <div class="hero-acoes">
+              <a href="https://wa.me/5511999999999?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta!" 
+                 class="btn btn-primario" 
+                 id="btn-hero-wpp"
+                 target="_blank" 
+                 rel="noopener noreferrer"
+                 aria-label="Agendar consulta pelo WhatsApp">
+                <span aria-hidden="true">💬</span> Agendar pelo WhatsApp
+              </a>
+              <a href="#sobre" class="btn btn-outline" id="btn-hero-saibamais">
+                Saiba mais
+              </a>
+            </div>
+
+            <div class="hero-stats" role="list" aria-label="Números sobre a psicóloga">
+              <div role="listitem">
+                <div class="hero-stat-numero">+500</div>
+                <div class="hero-stat-texto">Pacientes atendidos</div>
+              </div>
+              <div role="listitem">
+                <div class="hero-stat-numero">10+</div>
+                <div class="hero-stat-texto">Anos de experiência</div>
+              </div>
+              <div role="listitem">
+                <div class="hero-stat-numero">100%</div>
+                <div class="hero-stat-texto">Sigilo garantido</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Imagem hero -->
+          <div class="hero-imagem-wrapper" aria-hidden="true">
+            <div class="hero-imagem-moldura">
+              <img class="hero-imagem" 
+                   src="psicologa.jpg" 
+                   alt="Dra. Ana Beatriz Ferreira, psicóloga clínica" 
+                   width="420" 
+                   loading="eager" />
+            </div>
+
+            <!-- Badges flutuantes -->
+            <div class="hero-badge hero-badge-esquerda" role="img" aria-label="Atendimento online disponível">
+              <span class="hero-badge-icone">💻</span>
+              <div>
+                <div class="hero-badge-titulo">Online & Presencial</div>
+                <div class="hero-badge-desc">Flexível para você</div>
+              </div>
+            </div>
+
+            <div class="hero-badge hero-badge-direita" role="img" aria-label="Sigilo e ética profissional">
+              <span class="hero-badge-icone">🔒</span>
+              <div>
+                <div class="hero-badge-titulo">100% Sigiloso</div>
+                <div class="hero-badge-desc">Ética garantida</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ================================================
+         SOBRE — APRESENTAÇÃO
+         ================================================ -->
+    <section class="sobre" id="sobre" aria-labelledby="sobre-titulo">
+      <div class="container">
+        <div class="sobre-inner">
+
+          <!-- Foto -->
+          <div class="sobre-imagem-wrapper animar-subir">
+            <img class="sobre-imagem" 
+                 src="psicologa.jpg" 
+                 alt="Dra. Ana Beatriz Ferreira em seu consultório" 
+                 width="480" 
+                 loading="lazy" />
+            <div class="sobre-imagem-deco" aria-hidden="true"></div>
+            <div class="sobre-badge-crp" aria-label="CRP e especialidade da psicóloga">
+              <div class="sobre-badge-crp-numero">CRP 06/12345</div>
+              <div class="sobre-badge-crp-label">Psicóloga Clínica</div>
+            </div>
+          </div>
+
+          <!-- Conteúdo -->
+          <div class="sobre-conteudo animar-subir animar-delay-2">
+            <span class="tag-verde">Sobre mim</span>
+            <h2 class="secao-titulo" id="sobre-titulo">
+              Dra. Ana Beatriz Ferreira
+            </h2>
+
+            <p class="sobre-texto">
+              Sou psicóloga clínica com mais de 10 anos de experiência no cuidado 
+              da saúde mental. Minha abordagem é humanizada, baseada na Terapia 
+              Cognitivo-Comportamental (TCC) e em práticas de Mindfulness, com foco 
+              em ajudar cada pessoa a encontrar seu próprio caminho para o bem-estar.
+            </p>
+            <p class="sobre-texto">
+              Acredito que cada ser humano tem em si a capacidade de transformação. 
+              Meu papel é caminhar ao seu lado nesse processo, de forma respeitosa, 
+              empática e sem julgamentos, em um ambiente verdadeiramente seguro.
+            </p>
+
+            <ul class="sobre-formacao" aria-label="Formação acadêmica e especializações">
+              <li class="sobre-formacao-item">
+                <div class="sobre-formacao-icone" aria-hidden="true">🎓</div>
+                <div>
+                  <div class="sobre-formacao-titulo">Graduação em Psicologia</div>
+                  <div class="sobre-formacao-desc">Universidade de São Paulo (USP) · 2013</div>
+                </div>
+              </li>
+              <li class="sobre-formacao-item">
+                <div class="sobre-formacao-icone" aria-hidden="true">📋</div>
+                <div>
+                  <div class="sobre-formacao-titulo">Especialização em TCC</div>
+                  <div class="sobre-formacao-desc">Instituto Beck · Terapia Cognitivo-Comportamental</div>
+                </div>
+              </li>
+              <li class="sobre-formacao-item">
+                <div class="sobre-formacao-icone" aria-hidden="true">🧘</div>
+                <div>
+                  <div class="sobre-formacao-titulo">Formação em Mindfulness</div>
+                  <div class="sobre-formacao-desc">MBSR — Redução de Estresse Baseada em Atenção Plena</div>
+                </div>
+              </li>
+              <li class="sobre-formacao-item">
+                <div class="sobre-formacao-icone" aria-hidden="true">💑</div>
+                <div>
+                  <div class="sobre-formacao-titulo">Especialização em Terapia de Casal</div>
+                  <div class="sobre-formacao-desc">Abordagem Sistêmica · Instituto Familia</div>
+                </div>
+              </li>
+            </ul>
+
+            <a href="#contato" class="btn btn-primario" id="btn-sobre-agendar">
+              <span aria-hidden="true">📅</span> Agendar minha consulta
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ================================================
+         VALORES / DIFERENCIAIS
+         ================================================ -->
+    <section class="valores" id="valores" aria-labelledby="valores-titulo">
+      <div class="container">
+        <div class="valores-cabecalho">
+          <span class="tag-verde">Por que me escolher</span>
+          <h2 class="secao-titulo" id="valores-titulo">Meus valores e diferenciais</h2>
+          <p class="secao-subtitulo">
+            Minha prática é guiada por princípios que colocam você no centro 
+            do cuidado, com ética e respeito acima de tudo.
+          </p>
+        </div>
+
+        <ul class="valores-grid" role="list" aria-label="Diferenciais profissionais">
+          <li class="valor-card animar-subir animar-delay-1">
+            <span class="valor-icone" aria-hidden="true">🤝</span>
+            <h3 class="valor-titulo">Acolhimento Genuíno</h3>
+            <p class="valor-desc">Um espaço sem julgamentos onde você pode ser quem realmente é, com toda a sua história e complexidade.</p>
+          </li>
+          <li class="valor-card animar-subir animar-delay-2">
+            <span class="valor-icone" aria-hidden="true">🔬</span>
+            <h3 class="valor-titulo">Baseada em Evidências</h3>
+            <p class="valor-desc">Utilizo métodos científicos comprovados como TCC e Mindfulness, adaptados às suas necessidades individuais.</p>
+          </li>
+          <li class="valor-card animar-subir animar-delay-3">
+            <span class="valor-icone" aria-hidden="true">🔒</span>
+            <h3 class="valor-titulo">Sigilo Total</h3>
+            <p class="valor-desc">Tudo que é compartilhado fica entre nós. Ética e confidencialidade são pilares inegociáveis da minha prática.</p>
+          </li>
+          <li class="valor-card animar-subir animar-delay-1">
+            <span class="valor-icone" aria-hidden="true">🌱</span>
+            <h3 class="valor-titulo">Desenvolvimento Contínuo</h3>
+            <p class="valor-desc">Estou sempre me atualizando com as melhores práticas para oferecer o atendimento mais qualificado possível.</p>
+          </li>
+          <li class="valor-card animar-subir animar-delay-2">
+            <span class="valor-icone" aria-hidden="true">💻</span>
+            <h3 class="valor-titulo">Flexibilidade de Horário</h3>
+            <p class="valor-desc">Atendo presencialmente e online para que você possa cuidar da sua saúde mental onde estiver, com comodidade.</p>
+          </li>
+          <li class="valor-card animar-subir animar-delay-3">
+            <span class="valor-icone" aria-hidden="true">⭐</span>
+            <h3 class="valor-titulo">Experiência Comprovada</h3>
+            <p class="valor-desc">Mais de 10 anos e 500 pacientes atendidos, com resultados consistentes e uma trajetória de cuidado dedicado.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+
+    <!-- ================================================
+         TRATAMENTOS — SERVIÇOS
+         ================================================ -->
+    <section class="tratamentos" id="tratamentos" aria-labelledby="tratamentos-titulo">
+      <div class="container">
+        <div class="tratamentos-cabecalho">
+          <span class="tag-verde">Tratamentos</span>
+          <h2 class="secao-titulo" id="tratamentos-titulo">Como posso te ajudar</h2>
+          <p class="secao-subtitulo">
+            Ofereço uma variedade de abordagens terapêuticas adaptadas às suas 
+            necessidades. Cada jornada é única.
+          </p>
+        </div>
+
+        <ul class="tratamentos-grid" role="list" aria-label="Lista de tratamentos disponíveis">
+
+          <li class="trat-card animar-subir animar-delay-1">
+            <div class="trat-icone-wrapper" aria-hidden="true">🧠</div>
+            <h3 class="trat-titulo">Terapia Individual</h3>
+            <p class="trat-desc">
+              Atendimento personalizado focado em autoconhecimento, superação de 
+              bloqueios emocionais e construção de uma vida mais plena e satisfatória.
+            </p>
+            <span class="trat-tag">TCC · Mindfulness</span>
+          </li>
+
+          <li class="trat-card animar-subir animar-delay-2">
+            <div class="trat-icone-wrapper" aria-hidden="true">😰</div>
+            <h3 class="trat-titulo">Ansiedade e Depressão</h3>
+            <p class="trat-desc">
+              Tratamento especializado para transtornos de ansiedade, ataques de pânico 
+              e depressão, com técnicas eficazes para retomar o controle da sua vida.
+            </p>
+            <span class="trat-tag">Especialidade</span>
+          </li>
+
+          <li class="trat-card animar-subir animar-delay-3">
+            <div class="trat-icone-wrapper" aria-hidden="true">💑</div>
+            <h3 class="trat-titulo">Terapia de Casal</h3>
+            <p class="trat-desc">
+              Apoio para casais que desejam melhorar a comunicação, resolver conflitos 
+              recorrentes e fortalecer os laços afetivos do relacionamento.
+            </p>
+            <span class="trat-tag">Abordagem Sistêmica</span>
+          </li>
+
+          <li class="trat-card animar-subir animar-delay-1">
+            <div class="trat-icone-wrapper" aria-hidden="true">🔥</div>
+            <h3 class="trat-titulo">Burnout e Estresse</h3>
+            <p class="trat-desc">
+              Identificação e tratamento do esgotamento profissional, com estratégias 
+              práticas para restaurar a energia, os limites e a qualidade de vida.
+            </p>
+            <span class="trat-tag">Saúde Ocupacional</span>
+          </li>
+
+          <li class="trat-card animar-subir animar-delay-2">
+            <div class="trat-icone-wrapper" aria-hidden="true">🌟</div>
+            <h3 class="trat-titulo">Desenvolvimento Pessoal</h3>
+            <p class="trat-desc">
+              Para quem deseja crescer, clarear seus valores, melhorar relacionamentos 
+              e alcançar seus objetivos com mais autoconfiança e propósito.
+            </p>
+            <span class="trat-tag">Coaching Terapêutico</span>
+          </li>
+
+          <li class="trat-card animar-subir animar-delay-3">
+            <div class="trat-icone-wrapper" aria-hidden="true">💻</div>
+            <h3 class="trat-titulo">Atendimento Online</h3>
+            <p class="trat-desc">
+              Sessões por videochamada com a mesma qualidade do atendimento presencial, 
+              de onde você estiver, com total segurança e comodidade.
+            </p>
+            <span class="trat-tag">Disponível Hoje</span>
+          </li>
+
+        </ul>
+      </div>
+    </section>
+
+
+    <!-- ================================================
+         DEPOIMENTOS
+         ================================================ -->
+    <section class="depoimentos" id="depoimentos" aria-labelledby="depoimentos-titulo">
+      <div class="container">
+        <div class="depoimentos-cabecalho">
+          <span class="tag-verde">Depoimentos</span>
+          <h2 class="secao-titulo" id="depoimentos-titulo">O que dizem meus pacientes</h2>
+          <p class="secao-subtitulo" style="margin: 0 auto;">
+            Histórias reais de transformação e crescimento pessoal.
+            Nomes preservados para garantir o sigilo.
+          </p>
+        </div>
+
+        <ul class="depoimentos-grid" role="list" aria-label="Depoimentos de pacientes">
+
+          <li class="dep-card animar-subir animar-delay-1">
+            <span class="dep-aspas" aria-hidden="true">"</span>
+            <p class="dep-texto">
+              A Dra. Ana Beatriz mudou minha vida. Cheguei com ansiedade severa e 
+              síndrome do pânico. Após 8 meses de terapia, consigo viver de forma 
+              plena e confiante. Sou eternamente grata.
+            </p>
+            <div class="dep-autor-wrapper">
+              <div class="dep-avatar" aria-hidden="true">👩</div>
+              <div>
+                <div class="dep-autor-nome">M.R., 34 anos</div>
+                <div class="dep-estrelas" aria-label="Avaliação 5 estrelas">★★★★★</div>
+              </div>
+            </div>
+          </li>
+
+          <li class="dep-card animar-subir animar-delay-2">
+            <span class="dep-aspas" aria-hidden="true">"</span>
+            <p class="dep-texto">
+              Passei anos sem conseguir me relacionar bem. A terapia de casal foi 
+              um divisor de águas no nosso relacionamento. Aprendemos a nos comunicar 
+              de verdade. Recomendo de olhos fechados.
+            </p>
+            <div class="dep-autor-wrapper">
+              <div class="dep-avatar" aria-hidden="true">👨</div>
+              <div>
+                <div class="dep-autor-nome">C.F., 42 anos</div>
+                <div class="dep-estrelas" aria-label="Avaliação 5 estrelas">★★★★★</div>
+              </div>
+            </div>
+          </li>
+
+          <li class="dep-card animar-subir animar-delay-3">
+            <span class="dep-aspas" aria-hidden="true">"</span>
+            <p class="dep-texto">
+              Sofria de burnout severo e não sabia mais quem eu era além do trabalho. 
+              Com a ajuda da Dra. Ana Beatriz, encontrei equilíbrio, estabeleci limites 
+              e redescobri o prazer de viver.
+            </p>
+            <div class="dep-autor-wrapper">
+              <div class="dep-avatar" aria-hidden="true">👩‍💼</div>
+              <div>
+                <div class="dep-autor-nome">L.M., 29 anos</div>
+                <div class="dep-estrelas" aria-label="Avaliação 5 estrelas">★★★★★</div>
+              </div>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+    </section>
+
+
+    <!-- ================================================
+         CONTATO
+         ================================================ -->
+    <section class="contato" id="contato" aria-labelledby="contato-titulo">
+      <div class="container">
+        <div class="contato-inner">
+
+          <!-- Informações de contato -->
+          <div class="contato-info animar-subir">
+            <span class="tag-verde">Contato</span>
+            <h2 class="contato-info-titulo" id="contato-titulo">
+              Pronto para dar<br />o primeiro passo?
+            </h2>
+            <p class="contato-info-desc">
+              Entre em contato e agende sua consulta. A primeira sessão é 
+              uma oportunidade de nos conhecermos e você verificar como a 
+              terapia pode transformar sua vida.
+            </p>
+
+            <ul class="contato-lista" aria-label="Formas de contato">
+              <li class="contato-item">
+                <div class="contato-item-icone" aria-hidden="true">📱</div>
+                <div>
+                  <div class="contato-item-label">WhatsApp</div>
+                  <a href="https://wa.me/5511999999999" 
+                     class="contato-item-valor" 
+                     id="link-wpp"
+                     target="_blank" 
+                     rel="noopener noreferrer"
+                     aria-label="Contato via WhatsApp">(11) 99999-9999</a>
+                </div>
+              </li>
+              <li class="contato-item">
+                <div class="contato-item-icone" aria-hidden="true">✉️</div>
+                <div>
+                  <div class="contato-item-label">E-mail</div>
+                  <a href="mailto:contato@draanabeatriz.com.br" 
+                     class="contato-item-valor"
+                     id="link-email"
+                     aria-label="Enviar e-mail">contato@draanabeatriz.com.br</a>
+                </div>
+              </li>
+              <li class="contato-item">
+                <div class="contato-item-icone" aria-hidden="true">📍</div>
+                <div>
+                  <div class="contato-item-label">Localização</div>
+                  <span class="contato-item-valor">São Paulo, SP — e Online</span>
+                </div>
+              </li>
+              <li class="contato-item">
+                <div class="contato-item-icone" aria-hidden="true">📸</div>
+                <div>
+                  <div class="contato-item-label">Instagram</div>
+                  <a href="https://instagram.com" 
+                     class="contato-item-valor"
+                     id="link-instagram"
+                     target="_blank" 
+                     rel="noopener noreferrer"
+                     aria-label="Perfil no Instagram">@dra.anabeatriz.psi</a>
+                </div>
+              </li>
+            </ul>
+
+            <div class="contato-horarios" role="complementary" aria-label="Horários de atendimento">
+              <div class="contato-horarios-titulo">
+                <span aria-hidden="true">🕐</span> Horários de Atendimento
+              </div>
+              <div class="contato-horarios-linha">
+                <span>Segunda a Sexta</span>
+                <span>08h — 19h</span>
+              </div>
+              <div class="contato-horarios-linha">
+                <span>Sábado</span>
+                <span>08h — 13h</span>
+              </div>
+              <div class="contato-horarios-linha">
+                <span>Domingo</span>
+                <span>Fechado</span>
+              </div>
+            </div>
+
+            <a href="https://wa.me/5511999999999?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta!"
+               class="btn btn-wpp"
+               id="btn-contato-wpp"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="Agendar consulta pelo WhatsApp">
+              <span aria-hidden="true">💬</span> Agendar pelo WhatsApp
+            </a>
+          </div>
+
+          <!-- Formulário de contato -->
+          <div class="contato-form animar-subir animar-delay-2">
+            <h3 class="form-titulo">Envie uma mensagem</h3>
+            <p class="form-subtitulo">Responderei em até 24 horas úteis.</p>
+
+            <form id="form-contato" novalidate aria-label="Formulário de contato">
+
+              <!-- Web3Forms: chave de acesso -->
+              <input type="hidden" name="access_key" value="94d77095-ab08-4fa6-98d3-e3b3ce50e780" />
+              <!-- Personaliza o assunto do e-mail recebido -->
+              <input type="hidden" name="subject" value="Nova mensagem do site — Dra. Ana Beatriz" />
+              <!-- Evita redirect padrão do Web3Forms -->
+              <input type="hidden" name="redirect" value="false" />
+
+              <!-- Feedback de envio (sucesso / erro) -->
+              <div id="form-feedback" class="form-feedback" role="alert" aria-live="polite" hidden>
+                <span class="form-feedback-icone" aria-hidden="true"></span>
+                <p class="form-feedback-msg"></p>
+              </div>
+
+              <div class="form-row">
+                <div class="form-grupo">
+                  <label class="form-label" for="input-nome">Nome completo</label>
+                  <input 
+                    class="form-input" 
+                    type="text" 
+                    id="input-nome" 
+                    name="name"
+                    placeholder="Seu nome" 
+                    autocomplete="name"
+                    required />
+                  <span class="form-erro" id="erro-nome" aria-live="polite"></span>
+                </div>
+                <div class="form-grupo">
+                  <label class="form-label" for="input-telefone">Telefone / WhatsApp</label>
+                  <input 
+                    class="form-input" 
+                    type="tel" 
+                    id="input-telefone" 
+                    name="phone"
+                    placeholder="(11) 99999-9999" 
+                    autocomplete="tel"
+                    required />
+                  <span class="form-erro" id="erro-telefone" aria-live="polite"></span>
+                </div>
+              </div>
+
+              <div class="form-grupo">
+                <label class="form-label" for="input-email">E-mail</label>
+                <input 
+                  class="form-input" 
+                  type="email" 
+                  id="input-email" 
+                  name="email"
+                  placeholder="seu@email.com" 
+                  autocomplete="email"
+                  required />
+                <span class="form-erro" id="erro-email" aria-live="polite"></span>
+              </div>
+
+              <div class="form-grupo">
+                <label class="form-label" for="select-tratamento">Qual tratamento te interessa?</label>
+                <select class="form-select" id="select-tratamento" name="tratamento">
+                  <option value="" disabled selected>Selecione uma opção...</option>
+                  <option value="individual">Terapia Individual</option>
+                  <option value="ansiedade">Ansiedade e Depressão</option>
+                  <option value="casal">Terapia de Casal</option>
+                  <option value="burnout">Burnout e Estresse</option>
+                  <option value="desenvolvimento">Desenvolvimento Pessoal</option>
+                  <option value="online">Atendimento Online</option>
+                  <option value="outro">Outro / Não sei ainda</option>
+                </select>
+              </div>
+
+              <div class="form-grupo">
+                <label class="form-label" for="textarea-mensagem">Mensagem (opcional)</label>
+                <textarea 
+                  class="form-textarea" 
+                  id="textarea-mensagem" 
+                  name="message"
+                  placeholder="Conte um pouco sobre o que está buscando na terapia..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primario form-btn" id="btn-form-enviar">
+                <span class="btn-form-icone" aria-hidden="true">📤</span>
+                <span class="btn-form-texto">Enviar mensagem</span>
+              </button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- ================================================
+       FOOTER
+       ================================================ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-inner">
+
+        <!-- Marca -->
+        <div>
+          <div class="footer-marca-nome">Dra. Ana Beatriz Ferreira</div>
+          <div class="footer-marca-crp">Psicóloga Clínica · CRP 06/12345</div>
+          <p class="footer-marca-desc">
+            Cuidado com a saúde mental de forma acolhedora, ética e baseada 
+            em evidências. Presencial e online.
+          </p>
+        </div>
+
+        <!-- Links rápidos -->
+        <nav aria-label="Links rápidos do rodapé">
+          <div class="footer-col-titulo">Navegação</div>
+          <ul class="footer-links" role="list">
+            <li><a href="#hero">Início</a></li>
+            <li><a href="#sobre">Sobre mim</a></li>
+            <li><a href="#tratamentos">Tratamentos</a></li>
+            <li><a href="#depoimentos">Depoimentos</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+
+        <!-- Contato no rodapé -->
+        <div>
+          <div class="footer-col-titulo">Contato</div>
+          <address style="font-style: normal;">
+            <div class="footer-contato-item">
+              <span aria-hidden="true">📱</span>
+              <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">(11) 99999-9999</a>
+            </div>
+            <div class="footer-contato-item">
+              <span aria-hidden="true">✉️</span>
+              <a href="mailto:contato@draanabeatriz.com.br" aria-label="E-mail">contato@draanabeatriz.com.br</a>
+            </div>
+            <div class="footer-contato-item">
+              <span aria-hidden="true">📍</span>
+              <span>São Paulo, SP — e Online</span>
+            </div>
+            <div class="footer-contato-item">
+              <span aria-hidden="true">📸</span>
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">@dra.anabeatriz.psi</a>
+            </div>
+          </address>
+        </div>
+
+      </div>
+
+      <hr class="footer-divider" />
+
+      <div class="footer-bottom">
+        <span>&copy; 2024 Dra. Ana Beatriz Ferreira · CRP 06/12345. Todos os direitos reservados.</span>
+        <span>Desenvolvido com 💚 e cuidado</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script de validação e envio do formulário -->
+  <script src="script.js"></script>
+
+</body>
+</html>
